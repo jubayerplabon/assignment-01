@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*.{
+    margin: 0px;
+    padding: 0px;
+}
+.azeret-mono-> {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;}
+
+    /* banner style */
+
+.banner{
+    background-image: url("../assets/Hero-bg.png");
+    background-size: cover;
+    height: 652px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+    /* position: absolute;
+width: 1440px;
+height: 652px;
+left: 0;
+right: 0;
+top: 131px;
+bottom: 4462px; */
+}
+.banner-h1{
+   color: black;
+   text-align: center;
+   text-transform: uppercase;
+   padding-top: 200px;
+
+}   
+.banner-h2{
+color: rgb(13, 19, 33);
+text-align: center;
+opacity: 00.5;
+padding-top: 5px;
+}
+.banner-image{
+   align-items: center;
+   align-content: start;
+position:absolute;
+padding-bottom: 250px;
+
+}
+#btn{
+    position: relative;
+}
+.banner-btn{
+    background-color: darkseagreen;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    justify-items: end;
+}
+.banner-btn:hover{
+    background-color: burlywood;
+    transition: 0.5s ease-in;
+}
+/* article style */
+.article-section-1 {
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-top: 100px;
+   
+
+
+}
+#head{
+ text-align: center;
+ height: 200px;
+ border: 2px solid red;
+ width: 100%;
+ 
+}
+.section-1{
+    display:flex ;
+    margin-left: 400px;
+    align-items: center;
+    justify-content: center;
+}
+.left-1{
+    padding-right: 70px;
+    margin-right: 80px;
+text-align: justify;
+}
+.left-1 button{
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid gray;
+}
+.section-2{
+    display:flex ;
+    margin-left: 400px;
+    align-items: center;
+    justify-content: center;
+}
+.left-2{
+ padding-right: 100px;
+ 
+}
+.right-2 button{
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid gray;
+}
+.section-3{
+    display:flex ;
+    margin-left: 400px;
+    align-items: center;
+    justify-content: center;
+}
+.left-3{
+    padding-right: 70px;
+    margin-right: 80px;
+text-align: justify;
+}
+.left-3 button{
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid gray;
+}
+.easy{
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-top: 100px;
+}
+#header{
+    text-align: center;
+    height: 200px;
+    border: 2px solid red;
+    width: 100%;
+}
