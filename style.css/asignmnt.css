@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-*.{
+*{
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
+    /* font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal; */
 }
-.azeret-mono-> {
+.azeret-mono-{
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
     font-weight: <weight>;
@@ -19,6 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
    
     /* position: absolute;
 width: 1440px;
@@ -32,7 +38,7 @@ bottom: 4462px; */
    color: black;
    text-align: center;
    text-transform: uppercase;
-   padding-top: 200px;
+   padding-top: 20px;
 
 }   
 .banner-h2{
@@ -42,17 +48,18 @@ opacity: 00.5;
 padding-top: 5px;
 }
 .banner-image{
+    margin-top: 50px;
    align-items: center;
    align-content: start;
-position:absolute;
-padding-bottom: 250px;
+/* position:absolute; */
+/* padding-bottom: 250px; */
 
 }
-#btn{
+/* #btn{
     display: block;
     position: relative;
-    flex-direction: column;
-}
+    flex-direction: column; */
+/* } */
 .banner-btn{
     background-color: darkseagreen;
     border: none;
@@ -61,10 +68,10 @@ padding-bottom: 250px;
     color: white;
     padding: 15px 32px;
     font-size: 16px;
-    cursor: pointer;
-    position: absolute;
-    justify-items: end;
-    
+    /* cursor: pointer; */
+    /* position: absolute; */
+    /* justify-items: end; */
+    margin-top: 20px;
 }
 .banner-btn:hover{
     background-color: burlywood;
@@ -99,7 +106,7 @@ height: 614px;
 }
 .section-1{
     display:flex ;
-    margin-left: 400px;
+    /* margin-left: 400px; */
     align-items: center;
     justify-content: center;
 }
@@ -116,7 +123,7 @@ text-align: justify;
 }
 .section-2{
     display:flex ;
-    margin-left: 400px;
+    /* margin-left: 400px; */
     align-items: center;
     justify-content: center;
 }
@@ -132,7 +139,7 @@ text-align: justify;
 }
 .section-3{
     display:flex ;
-    margin-left: 400px;
+    /* margin-left: 400px; */
     align-items: center;
     justify-content: center;
 }
@@ -149,7 +156,7 @@ text-align: justify;
 }
 .easy{
     margin: 0 auto;
-
+    width: 60%;
     margin-top: 100px;
 }
 #header{
@@ -161,25 +168,31 @@ text-align: justify;
 .skills{
     display: flex;
     gap: 20px;
-    height: 460px;
-    width: 1140px;
-    margin-left: 350px;
+    /* height: 400px; */
+    width: 60%;
+    margin: 0 auto;
+    /* margin-left: 350px; */
     margin-top: 100px;
+    justify-content: center;
+    
 }
 .skill-1{
  background-color:antiquewhite ;
  padding: 40px;
+ flex: 1;
 }
 .skill-1 img{
-   height: 64px;
+   height: 44px;
 
 }
 .skill-1 h5{
 font-size: 20px;
  font-weight: 600;
+ padding-top: 15px;
 }
 .skill-1 p{
     opacity: 0.5;
+    font-size: 19px;
 }
 .skill-1 a{
     color: black;
@@ -188,16 +201,19 @@ font-size: 20px;
 .skill-2{
  background-color: aqua;
  padding: 40px;
+ flex: 1;
 }
 .skill-2 img{
-    height: 64px;
+    height: 44px;
 }
 .skill-2 h5{
     font-size: 20px;
  font-weight: 600;
+ padding-top: 15px;
 }
 .skill-2 p{
     opacity: 0.5;
+    font-size: 19px;
 }
 .skill-2 a{
   color: black;
@@ -206,17 +222,20 @@ font-size: 20px;
 .skill-3{
  background-color: bisque;
  padding: 40px;
+ flex: 1;
 }
 .skill-3 img{
-    height: 64px;
+    height: 44px;
  
  }
  .skill-3 h5{
  font-size: 20px;
   font-weight: 600;
+  padding-top: 12px;
  }
  .skill-3 p{
      opacity: 0.5;
+     font-size: 19px;
  }
  .skill-3 a{
      color: black;
@@ -231,17 +250,20 @@ font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1140px;
+    width: 60%;
+    gap: 10px;
      height: 313px;
-     margin-left: 350px;
-     margin-top: 100px;
+     
+     margin: 0 auto;
+     margin-top: 80px;
      flex-direction: column;
 }
 .sup{
-
+    margin-bottom: 15px;
 }
 .in{
-    
+    display: flex;
+    align-items: center;
 }
 div input[type="text"]{
      height: 50px;
@@ -255,21 +277,24 @@ div input[type="text"]{
 div input[type="submit"]{
       width: 100px;
       height: 50px;
-      margin-top: 10px;
-      margin-left: 120px;
-      
+      /* margin-top: 10px;
+      margin-left: 120px; */
+      margin-left: 10px;
+      border: none;
+      font-weight: 700;
 }
 /* footer */
 
 .foot{
-    width: 1100px;
+    width: 60%;
     height: 50px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
- 
+ margin-top: 50px;
+ align-items: center;
 }
 .icone{
-    margin-top: 200px;
-    padding: 100px;
+    display: flex;
+    gap: 10px;
 }
