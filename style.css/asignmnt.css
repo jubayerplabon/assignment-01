@@ -76,6 +76,17 @@ padding-bottom: 250px;
 
 
 }
+.frame{
+width: 1140px;
+height: 614px;
+position: relative;
+margin: 0 auto;
+}
+.bingo iframe{
+    position: absolute;
+    width: 1140px;
+height: 614px;
+}
 #head{
  text-align: center;
  height: 200px;
@@ -143,4 +154,55 @@ text-align: justify;
     height: 200px;
     border: 2px solid red;
     width: 100%;
+}
+.skills{
+    display: flex;
+    gap: 20px;
+    height: 460px;
+    width: 1140px;
+    margin-left: 350px;
+    margin-top: 100px;
+}
+.skill-1{
+ background-color:antiquewhite ;
+}
+.skill-2{
+ background-color: aqua;
+}
+.skill-3{
+ background-color: bisque;
+}
+/* support */
+
+.support{
+    background-image: linear-gradient( rgba( 0,0,0,0.812), rgba(0,0,0,0.669)),url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+     height: 313px;
+     margin-left: 350px;
+     margin-top: 100px;
+    flex-direction: column;
+}
+.sup{
+
+}
+div input[type="text"]{
+     height: 50px;
+     width: 400px;
+     padding: 10px,20px;
+     background-color: white;
+     display: block;
+     border: none;
+}
+div input[type="submit"]{
+      width: 100px;
+      height: 50px;
+      margin-top: 10px;
+      margin-left: 120px;
+      
 }
