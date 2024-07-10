@@ -19,7 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid red;
+   
     /* position: absolute;
 width: 1440px;
 height: 652px;
@@ -49,7 +49,9 @@ padding-bottom: 250px;
 
 }
 #btn{
+    display: block;
     position: relative;
+    flex-direction: column;
 }
 .banner-btn{
     background-color: darkseagreen;
@@ -62,6 +64,7 @@ padding-bottom: 250px;
     cursor: pointer;
     position: absolute;
     justify-items: end;
+    
 }
 .banner-btn:hover{
     background-color: burlywood;
@@ -70,7 +73,7 @@ padding-bottom: 250px;
 /* article style */
 .article-section-1 {
     margin: 0 auto;
-    border: 2px solid red;
+    
     margin-top: 100px;
    
 
@@ -90,7 +93,7 @@ height: 614px;
 #head{
  text-align: center;
  height: 200px;
- border: 2px solid red;
+ 
  width: 100%;
  
 }
@@ -146,13 +149,13 @@ text-align: justify;
 }
 .easy{
     margin: 0 auto;
-    border: 2px solid red;
+
     margin-top: 100px;
 }
 #header{
     text-align: center;
     height: 200px;
-    border: 2px solid red;
+  
     width: 100%;
 }
 .skills{
@@ -165,13 +168,59 @@ text-align: justify;
 }
 .skill-1{
  background-color:antiquewhite ;
+ padding: 40px;
 }
+.skill-1 img{
+   height: 64px;
+
+}
+.skill-1 h5{
+font-size: 20px;
+ font-weight: 600;
+}
+.skill-1 p{
+    opacity: 0.5;
+}
+.skill-1 a{
+    color: black;
+}
+
 .skill-2{
  background-color: aqua;
+ padding: 40px;
 }
+.skill-2 img{
+    height: 64px;
+}
+.skill-2 h5{
+    font-size: 20px;
+ font-weight: 600;
+}
+.skill-2 p{
+    opacity: 0.5;
+}
+.skill-2 a{
+  color: black;
+}
+
 .skill-3{
  background-color: bisque;
+ padding: 40px;
 }
+.skill-3 img{
+    height: 64px;
+ 
+ }
+ .skill-3 h5{
+ font-size: 20px;
+  font-weight: 600;
+ }
+ .skill-3 p{
+     opacity: 0.5;
+ }
+ .skill-3 a{
+     color: black;
+ }
 /* support */
 
 .support{
@@ -186,10 +235,13 @@ text-align: justify;
      height: 313px;
      margin-left: 350px;
      margin-top: 100px;
-    flex-direction: column;
+     flex-direction: column;
 }
 .sup{
 
+}
+.in{
+    
 }
 div input[type="text"]{
      height: 50px;
@@ -198,6 +250,7 @@ div input[type="text"]{
      background-color: white;
      display: block;
      border: none;
+    
 }
 div input[type="submit"]{
       width: 100px;
@@ -205,4 +258,18 @@ div input[type="submit"]{
       margin-top: 10px;
       margin-left: 120px;
       
+}
+/* footer */
+
+.foot{
+    width: 1100px;
+    height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+ 
+}
+.icone{
+    margin-top: 200px;
+    padding: 100px;
 }
